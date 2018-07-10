@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package grpcsharp;
+
+service Chat {
+  rpc GetMessage (ClientHello) returns (ServerHello) {}
+}
+
+message ClientHello {
+  string clientName = 1;
+  string clientMessage = 2;
+}
+
+message ServerHello {
+  string serverName = 1;
+  int64 serverNumber = 2;
+  string serverMessage = 3;
+}

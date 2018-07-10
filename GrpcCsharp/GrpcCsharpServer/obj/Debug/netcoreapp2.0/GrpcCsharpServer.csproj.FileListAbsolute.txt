@@ -1,0 +1,14 @@
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.csprojAssemblyReference.cache
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.csproj.CoreCompileInputs.cache
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.AssemblyInfoInputs.cache
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.AssemblyInfo.cs
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharpServer.deps.json
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharpServer.runtimeconfig.json
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharpServer.runtimeconfig.dev.json
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharpServer.dll
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharpServer.pdb
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharp.dll
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\bin\Debug\netcoreapp2.0\GrpcCsharp.pdb
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.csproj.CopyComplete
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.dll
+G:\Projects\BlogCodeSample\GrpcCsharp\GrpcCsharpServer\obj\Debug\netcoreapp2.0\GrpcCsharpServer.pdb

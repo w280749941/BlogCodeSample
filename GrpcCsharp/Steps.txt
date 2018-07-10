@@ -1,0 +1,13 @@
+1. Create .proto file.
+
+2. Add 3 nuget packages in first project only(GRPC-protobuffer/core/tools).
+
+3. Create .bat command.
+
+4. Create client and Server projects.
+
+5. Add reference to First project.
+
+6. Impl the methods.
+
+7.s

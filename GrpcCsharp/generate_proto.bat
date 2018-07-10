@@ -1,0 +1,2 @@
+C:\Users\wshao\.nuget\packages\grpc.tools\1.13.0\tools\windows_x64\protoc.exe -I../protos --csharp_out GrpcCsharp --grpc_out GrpcCsharp ../protos/GrpcCsharp.proto --plugin=protoc-gen-grpc=C:\Users\wshao\.nuget\packages\grpc.tools\1.13.0\tools\windows_x64\grpc_csharp_plugin.exe
+@rem <protoc.exe path> -I<protos folder> --<type language output> <ProjectName> --grpc_out <ProjectName> <.proto file path> --plugin=protoc-gen-grpc=<plugin path>
