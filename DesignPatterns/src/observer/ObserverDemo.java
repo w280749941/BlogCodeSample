@@ -7,12 +7,12 @@ import observer.subject.Video;
 import observer.subject.VideoChannel;
 import observer.subscriber.User;
 
-public class Main {
+public class ObserverDemo {
 
     private List<IPublisher> iPublishers;
     private List<User> users;
 
-    private Main() {
+    private ObserverDemo() {
         iPublishers = new ArrayList<>();
         users = new ArrayList<>();
     }
@@ -37,7 +37,7 @@ public class Main {
         User user1 = new User("Cool_user1");
         User user2 = new User("Cool_user2");
         User user3 = new User("Cool_user3");
-        Main main = new Main();
+        ObserverDemo main = new ObserverDemo();
         main.addChannel(videoChannel);
         main.addUser(user1);
         main.addUser(user2);

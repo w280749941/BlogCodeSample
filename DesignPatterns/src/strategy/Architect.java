@@ -1,4 +1,4 @@
-package state;
+package strategy;
 
 public class Architect implements IRole{
 

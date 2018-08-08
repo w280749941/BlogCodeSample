@@ -1,9 +1,9 @@
-package state;
+package strategy;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class StrategyDemo {
 
     public static void main(String[] args) {
         IRole softwareDeveloper = new Developer("Software Developer", 20000);

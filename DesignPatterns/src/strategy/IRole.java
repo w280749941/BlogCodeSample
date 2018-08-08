@@ -1,4 +1,4 @@
-package state;
+package strategy;
 
 public interface IRole {
     int getSalary();
