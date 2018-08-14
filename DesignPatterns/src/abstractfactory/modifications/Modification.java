@@ -1,6 +1,6 @@
 package abstractfactory.modifications;
 
-public enum  Modification {
+public enum Modification {
     Scope,
     Suppressor,
     Magazine,
