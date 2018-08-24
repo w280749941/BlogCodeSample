@@ -2,6 +2,8 @@ package graphs;
 
 import graphs.densegraph.DenseGraph;
 import graphs.densegraph.DenseGraph.matrixIterator;
+import graphs.paths.Path;
+import graphs.paths.ShortestPath;
 import graphs.sparsegraph.SparseGraph;
 import graphs.utils.ReadGraph;
 import java.util.Random;
@@ -56,6 +58,23 @@ public class Demo {
 
         String fileName = "Graph2.txt";
 
+        SparseGraph sparseGraph = new SparseGraph(7, false);
+        ReadGraph readGraph = new ReadGraph(sparseGraph, fileName);
+        sparseGraph.show();
+        System.out.println();
+
+        //SparseGraph dfs: O(V+E), DenseGraph dfs: O(V^2)
+        Path path = new Path(sparseGraph, 0);
+        System.out.print("DFS : ");
+        path.showPath(6);
+
+        //SparseGraph dfs: O(V+E), DenseGraph dfs: O(V^2)
+        ShortestPath shortestPath = new ShortestPath(sparseGraph, 0);
+        System.out.print("BFS : ");
+        shortestPath.showPath(3);
+    }
+
+    private static void showGraphs(String fileName) throws Exception {
         SparseGraph sparseGraph = new SparseGraph(7, false);
         ReadGraph readGraph = new ReadGraph(sparseGraph, fileName);
         sparseGraph.show();

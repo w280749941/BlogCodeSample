@@ -23,6 +23,6 @@ public class UnionFindDemo {
             unionFind.isConnected(x, y);
         }
         long end = System.currentTimeMillis();
-        System.out.println((end-start));
+        System.out.println((end-start) + "ms");
     }
 }
