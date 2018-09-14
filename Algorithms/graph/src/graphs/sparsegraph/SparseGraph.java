@@ -1,7 +1,7 @@
 package graphs.sparsegraph;
 
 import graphs.Graph;
-import graphs.utils.Iterator;
+import graphs.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 

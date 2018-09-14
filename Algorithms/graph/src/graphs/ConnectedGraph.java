@@ -1,7 +1,5 @@
 package graphs;
 
-import graphs.utils.Iterator;
-
 public class ConnectedGraph {
 
     private Graph graph;

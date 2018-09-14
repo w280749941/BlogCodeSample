@@ -1,10 +1,9 @@
 package graphs.paths;
 
 import graphs.Graph;
-import graphs.utils.Iterator;
+import graphs.Iterator;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class Path {
 

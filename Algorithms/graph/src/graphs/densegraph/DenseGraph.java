@@ -1,7 +1,7 @@
 package graphs.densegraph;
 
 import graphs.Graph;
-import graphs.utils.Iterator;
+import graphs.Iterator;
 
 public class DenseGraph implements Graph {
 

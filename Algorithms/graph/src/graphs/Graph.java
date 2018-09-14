@@ -1,7 +1,5 @@
 package graphs;
 
-import graphs.utils.Iterator;
-
 public interface Graph {
 
     public int getVertices();
