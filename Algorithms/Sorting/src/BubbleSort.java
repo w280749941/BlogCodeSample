@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class BubbleSort implements Sortable{
 
     private int[] nums;
     Utility utility = new Utility();
@@ -6,10 +6,17 @@ public class BubbleSort {
     public BubbleSort(int[] arr){
         nums = arr;
     }
+    public BubbleSort(){}
 
+    @Override
     public int[] sort(){
         sortArray();
         return nums;
+    }
+
+    @Override
+    public void setArray(int[] nums) {
+        this.nums = nums;
     }
 
     private void sortArray(){
@@ -25,4 +32,5 @@ public class BubbleSort {
                 break;
         }
     }
+
 }
