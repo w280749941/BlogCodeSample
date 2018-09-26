@@ -1,3 +1,5 @@
+package utility;
+
 public class PerformanceFactor {
 
     private int size;

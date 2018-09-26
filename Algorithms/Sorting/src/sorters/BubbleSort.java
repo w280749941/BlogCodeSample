@@ -1,7 +1,11 @@
-public class BubbleSort implements Sortable{
+package sorters;
+
+import utility.Sortable;
+import utility.Utility;
+
+public class BubbleSort implements Sortable {
 
     private int[] nums;
-    Utility utility = new Utility();
 
     public BubbleSort(int[] arr){
         nums = arr;
@@ -25,12 +29,11 @@ public class BubbleSort implements Sortable{
             for(int j=0; j<i; j++){
                 if(nums[j] > nums[j+1]){
                     swapped = true;
-                    utility.swap(nums, j, j+1);
+                    Utility.swap(nums, j, j+1);
                 }
             }
             if (!swapped)
                 break;
         }
     }
-
 }
