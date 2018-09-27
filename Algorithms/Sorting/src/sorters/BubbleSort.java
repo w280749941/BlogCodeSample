@@ -14,16 +14,6 @@ public class BubbleSort implements Sortable {
 
     @Override
     public int[] sort(){
-        sortArray();
-        return nums;
-    }
-
-    @Override
-    public void setArray(int[] nums) {
-        this.nums = nums;
-    }
-
-    private void sortArray(){
         for(int i=nums.length-1; i >= 0; i--){
             boolean swapped = false;
             for(int j=0; j<i; j++){
@@ -35,5 +25,12 @@ public class BubbleSort implements Sortable {
             if (!swapped)
                 break;
         }
+        return nums;
     }
+
+    @Override
+    public void setArray(int[] nums) {
+        this.nums = nums;
+    }
+
 }

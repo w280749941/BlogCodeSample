@@ -4,9 +4,8 @@ import java.util.Random;
 
 public class Utility {
 
-    private Random rand;
+    public static Random rand = new Random();
     public Utility(){
-        this.rand = new Random();
     }
 
     public static void swap(int[] nums, int l, int r){
@@ -67,6 +66,7 @@ public class Utility {
         else
             System.out.printf("%s spent %.5fs on random array with size %d\n", sortable.getClass().getName(), timeRandom, pf.getSize());
 
+
         // Test sorted array
         int[] sortedArray = generateSortedArray(pf.getSize(), pf.getLowerBound());
         double timeSorted = getSortingTime(sortable, sortedArray);
@@ -82,6 +82,7 @@ public class Utility {
             System.out.printf("%s not sorted on random array with size %d\n", sortable.getClass().getName(), pf.getSize());
         else
             System.out.printf("%s spent %.5fs on reversed array with size %d\n", sortable.getClass().getName(), timeReversed, pf.getSize());
+
     }
 
     private double getSortingTime(Sortable sortable, int[] randomArray) {
